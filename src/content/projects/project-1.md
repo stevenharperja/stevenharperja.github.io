@@ -1,5 +1,5 @@
 ---
-title: 'Project 1'
+title: 'Legislative Bill Organizer'
 description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci'
 image:
     url: '/GitHub.webp'
@@ -11,9 +11,10 @@ worksImage2:
     url: '/image-2.webp'
     alt: 'second image of your project.'
 platform: Web
-stack: Astro, JavaScript
-website: https://astro-milky-way.netlify.app/
-github: https://github.com/ttomczak3/Milky-Way
+stack: Django, MariaDB
+website: https://github.com/CSCD488-Winter2024/Bill-Organizer
+github: https://github.com/CSCD488-Winter2024/Bill-Organizer
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus a tortor at molestie. Sed pellentesque leo auctor, auctor lorem nec, venenatis risus. Vivamus commodo ipsum vitae orci finibus, vel porta nunc viverra. In hac habitasse platea dictumst. Nunc pretium, ligula ultricies consequat sollicitudin, enim ex ullamcorper nisl.
+a website to view Washington state legislature bills and events related to them. This makes it easier for those interested in the political process to keep track of those events. Made in collaboration with gknutson1 for a political science student. I worked mainly on the frontend while my partner worked mainly on the database.
+Our tech stack used Django (Python), MariaDB, and Bootstrap.
