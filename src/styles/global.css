@@ -48,6 +48,9 @@ p {
     line-height: 1.5;
     text-indent: 1rem;
 }
+a {
+    text-decoration:none;
+}
 
 small, li {
     font-family: var(--body); 
