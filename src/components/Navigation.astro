@@ -1,15 +1,16 @@
 ---
 import ThemeIcon from './ThemeIcon.astro';
+console.log(Astro.preferredLocale);
+const languageContent = await import(`../locales/${Astro.preferredLocale}/components.js`);//TODO WHY IS THIS UNDEFINED? my browser defines it??
 ---
 <div class="navbar">
     <div class="navbar__title">
         <a href="/">Steven Harper</a>
     </div>
     <div class="navbar__menu">
-        <a href="/works/">Works</a>
-        <a href="/posts/">Posts</a>
-        <a href="https://github.com/stevenharperja" target="_blank">GitHub</a>
+        <a href="/works/">{languageContent.navigation.works}</a>
+        <a href="/posts/">{languageContent.navigation.posts}</a>
+        <a href="https://github.com/stevenharperja" target="_blank">{languageContent.navigation.github}</a>
         <ThemeIcon />
     </div>
 </div>
-
