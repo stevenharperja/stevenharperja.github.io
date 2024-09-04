@@ -1,7 +1,8 @@
 ---
 import ThemeIcon from './ThemeIcon.astro';
-console.log(Astro.preferredLocale);
-const languageContent = await import(`../locales/${Astro.preferredLocale}/components.js`);//TODO WHY IS THIS UNDEFINED? my browser defines it??
+console.log(Astro.currentLocale);
+const languageContent = await import(`../locales/${Astro.currentLocale}/components.js`);//TODO WHY IS THIS UNDEFINED? my browser defines it??
+// import LanguagePicker from '../components/LanguagePicker.astro';
 ---
 <div class="navbar">
     <div class="navbar__title">
@@ -12,5 +13,6 @@ const languageContent = await import(`../locales/${Astro.preferredLocale}/compon
         <a href="/posts/">{languageContent.navigation.posts}</a>
         <a href="https://github.com/stevenharperja" target="_blank">{languageContent.navigation.github}</a>
         <ThemeIcon />
+        <!-- <LanguagePicker /> -->
     </div>
 </div>

@@ -1,0 +1,51 @@
+---
+---
+<button id="languageToggle" title="Language Toggle">
+    <img id="languageImage" src="images/${//TODO}" />
+</button>
+<style>
+    #languageToggle {
+        border: 0;
+        background: none;
+    }
+
+    #languageToggle:hover {
+        cursor: pointer;
+        rotate: 10deg;
+    }
+</style>
+<script is:inline >
+    
+    const theme = (() => {
+        if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+            return localStorage.getItem('theme');
+        }
+        // if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+        //     return 'light';
+        // }
+        return 'en';
+    })();
+
+    if (language === 'english') {
+        //do english things
+    } else {
+        //do jp things
+    }
+
+    window.localStorage.setItem('theme', theme);
+
+    const languageToggleClick = () => {
+        const element = document.documentElement;
+        element.classList.toggle("light");
+
+        const isLight = element.classList.contains("light");
+        localStorage.setItem("theme", isLight ? "light" : "dark");
+
+        var img = document.getElementById("image");
+        img.src="images/test2";
+        return false;
+    }
+    
+    document.getElementById("languageToggle").addEventListener("click", languageToggleClick);
+</script>
+

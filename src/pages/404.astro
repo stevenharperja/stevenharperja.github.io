@@ -1,7 +1,7 @@
 ---
 const description = "404";
 import '../styles/global.css';
-const languageContent = await import(`../locales/${Astro.preferredLocale ? Astro.preferredLocale : Astro.currentLocale}/pages.js`);
+const languageContent = await import(`../locales/${Astro.currentLocale}/pages.js`);
 ---
 <layout>
     <div class="lost">
@@ -9,9 +9,9 @@ const languageContent = await import(`../locales/${Astro.preferredLocale ? Astro
             <img width="300" height="259" alt="Raccoon404Gif" src="/404.webp"/>
         </div>
         <h1 class="lost__header">{ description }</h1>
-        <p class="lost__body">{languageContent.navigation.body}</p>
+        <p class="lost__body">{languageContent.notFound.body}</p>
         <p>
-            <a class="lost__link" href="/">{languageContent.navigation.return}</a>
+            <a class="lost__link" href="/">{languageContent.notFound.return}</a>
         </p>
     </div>
 </layout>
