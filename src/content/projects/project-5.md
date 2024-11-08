@@ -1,5 +1,5 @@
 ---
-title: 'Neural Network from scratch'
+title: 'Rhythm Fighting Video Game'
 description: 'A basic fully-connected NN using only Python and Numpy'
 image:
     url: '/GitHub.webp'

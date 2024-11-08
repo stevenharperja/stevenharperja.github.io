@@ -1,5 +1,5 @@
 export const navigation = {
-    works: "Works ENGLISH",
+    works: "Works",
     posts: "Posts",
     github: "Github"
 };
