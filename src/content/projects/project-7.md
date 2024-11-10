@@ -1,6 +1,6 @@
 ---
-title: 'Neural Network from scratch'
-description: 'A basic fully-connected NN using only Python and Numpy'
+title: 'Diffusion Network Implementation'
+description: "It didn't work but I learned a lot"
 image:
     url: '/GitHub.webp'
     alt: 'GitHub wallpaper'

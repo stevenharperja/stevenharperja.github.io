@@ -1,6 +1,6 @@
 ---
-title: 'Neural Network from scratch'
-description: 'A basic fully-connected NN using only Python and Numpy'
+title: 'Various NN Stuff in pytorch'
+description: 'awdiwadoawjd'
 image:
     url: '/GitHub.webp'
     alt: 'GitHub wallpaper'
