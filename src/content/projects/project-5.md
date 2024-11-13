@@ -1,6 +1,6 @@
 ---
 title: 'Rhythm Fighting Video Game'
-description: 'A basic fully-connected NN using only Python and Numpy'
+description: 'Written in C# using the Godot engine.'
 image:
     url: '/GitHub.webp'
     alt: 'GitHub wallpaper'
@@ -16,4 +16,4 @@ website: https://astro-milky-way.netlify.app/
 github: https://github.com/ttomczak3/Milky-Way
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus a tortor at molestie. Sed pellentesque leo auctor, auctor lorem nec, venenatis risus. Vivamus commodo ipsum vitae orci finibus, vel porta nunc viverra. In hac habitasse platea dictumst. Nunc pretium, ligula ultricies consequat sollicitudin, enim ex ullamcorper nisl.
+An ongoing project to make a fighting game with rhythm-based mechanics baked in. So far a rhythm engine has been made, but sprites are in progress.
