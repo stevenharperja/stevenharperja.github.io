@@ -2,18 +2,22 @@
 title: 'Neural Network from scratch'
 description: 'A basic fully-connected NN using only Python and Numpy'
 image:
-    url: '/GitHub.webp'
-    alt: 'GitHub wallpaper'
+    url: '/mnist.jpg'
+    alt: 'MNIST image'
 worksImage1:
-    url: '/image-1.webp'
+    url: '/mnist.jpg'
     alt: 'first image of your project.'
 worksImage2:
-    url: '/image-2.webp'
-    alt: 'second image of your project.'
-platform: Web
-stack: Astro, JavaScript
-website: https://astro-milky-way.netlify.app/
-github: https://github.com/ttomczak3/Milky-Way
+    url: '/3b1b_ffnn.png'
+    alt: '3b1b image of a ffnn'
+platform: N/A
+stack: Python, Numpy
+website: https://github.com/stevenharperja/NN-from-scratch
+github: https://github.com/stevenharperja/NN-from-scratch
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus a tortor at molestie. Sed pellentesque leo auctor, auctor lorem nec, venenatis risus. Vivamus commodo ipsum vitae orci finibus, vel porta nunc viverra. In hac habitasse platea dictumst. Nunc pretium, ligula ultricies consequat sollicitudin, enim ex ullamcorper nisl.
+A simple feed-forward neural network built using Numpy.
+
+Built during my winter 2022 machine learning class.
+
+Achieved 96% accuracy on test set when trained on the MNIST dataset
