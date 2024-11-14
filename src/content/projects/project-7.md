@@ -2,7 +2,7 @@
 title: 'Diffusion Network Implementation'
 description: "An implementation which tries to emulate pictures of Pong"
 image:
-    url: '/GitHub.webp'
+    url: '/diffusion network/badoutput.png'
     alt: 'GitHub wallpaper'
 worksImage1:
     url: '/diffusion network/badoutput.png'

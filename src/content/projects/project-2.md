@@ -1,23 +1,29 @@
 ---
 title: 'GameJams'
-description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci'
+description: "Game Jam submissions"
 image:
-    url: '/GitHub.webp'
-    alt: 'GitHub wallpaper'
+    url: 'https://opengameart.org/sites/default/files/psControllerColored.png'
+    alt: 'gaming symbol'
 worksImage1:
-    url: '/image-1.webp'
-    alt: 'first image of your project.'
+    url: 'https://img.itch.zone/aW1nLzE3NTI1MTU4LnBuZw==/315x250%23c/KachX9.png'
+    alt: '1st game image'
 worksImage2:
-    url: '/image-2.webp'
-    alt: 'second image of your project.'
+    url: '/gamejams/flowtingGameplay.png'
+    alt: 'gameplay'
 platform: Web
-stack: Astro, JavaScript
+stack: Unity, C#
 website: https://stevenharperja.itch.io/flowting
 github: https://github.com/A-Tanner/FlowTing
 ---
+A game jam is an event where a group of people get together to create a video game in a very short amount of time.
+They can range from a few hours, to a few weeks.  
+They are a fun way to make something with others while keeping a small project scope.
 
-https://itch.io/jam/the-2024-escape-jam Submission to the Escape 2024 game jam. with A-Tanner
-Along with:
-Submissions for the Tri-Jam game jam. We did our best to make a game in only 3 hours. I learned a lot about how to use (and make mistakes with) git. I gained a lot of experience and had a ton of fun working on these games.
-We used the Unity engine, so all of it is written in C#
+My game jam submissions:
 
+[Escape Jam](https://itch.io/jam/the-2024-escape-jam):
+- [FlowTing](https://itch.io/jam/the-2024-escape-jam/rate/2924926) (runnable in the browser)
+
+[Tri-Jam](https://trijam.itch.io/)
+- [167](https://github.com/EagleJammers/Trijam167)
+- [171](https://github.com/EagleJammers/Trijam171) 
