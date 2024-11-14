@@ -1,5 +1,5 @@
 ---
-title: 'Diffusion Network Implementation'
+title: 'Diffusion Network'
 description: "An image generator which tries to create pictures of Pong"
 image:
     url: '/diffusion network/badoutput.png'
