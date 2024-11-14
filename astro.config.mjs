@@ -10,5 +10,6 @@ export default defineConfig({
           "ja", 
           "ja-JP"
         ]
-    }
+    },
+    site: 'https://stevenharperja.github.io',
 });
