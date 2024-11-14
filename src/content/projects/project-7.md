@@ -1,6 +1,6 @@
 ---
 title: 'Diffusion Network Implementation'
-description: "An implementation which tries to emulate pictures of Pong"
+description: "An image generator which tries to create pictures of Pong"
 image:
     url: '/diffusion network/badoutput.png'
     alt: 'GitHub wallpaper'
