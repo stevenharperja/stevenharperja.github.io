@@ -4,6 +4,7 @@ description: "Game Jam submissions"
 image:
     url: 'https://opengameart.org/sites/default/files/psControllerColored.png'
     alt: 'gaming symbol'
+video: ''
 worksImage1:
     url: 'https://img.itch.zone/aW1nLzE3NTI1MTU4LnBuZw==/315x250%23c/KachX9.png'
     alt: '1st game image'

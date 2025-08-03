@@ -1,5 +1,6 @@
 ---
 import BaseLayout from './Layout.astro';
+import { YouTube } from '@astro-community/astro-embed-youtube';
 const { frontmatter } = Astro.props;
 ---
 <BaseLayout pageTitle={frontmatter.title}>
@@ -9,14 +10,15 @@ const { frontmatter } = Astro.props;
     <h2>{frontmatter.title}</h2>
     <slot />
     <ul class="badge__list">
-        <li><span class="badge badge--item">PLATFORM</span>{frontmatter.platform}</li>
-        <li><span class="badge badge--item">STACK</span>{frontmatter.stack}</li>
-        <li><span class="badge badge--item">WEBSITE</span><a class="badge__link" href={frontmatter.website} target="_blank">{frontmatter.website}</a></li>
-        <li><span class="badge badge--item">GITHUB</span><a class="badge__link" href={frontmatter.github} target="_blank">{frontmatter.github}</a></li>
+        {frontmatter.platform ? (<li><span class="badge badge--item">PLATFORM</span>{frontmatter.platform}</li>) : null}
+        {frontmatter.stack ? (<li><span class="badge badge--item">STACK</span>{frontmatter.stack}</li>) : null}
+        {frontmatter.website ? (<li><span class="badge badge--item">WEBSITE</span><a class="badge__link" href={frontmatter.website} target="_blank">{frontmatter.website}</a></li>) : null}
+        {frontmatter.github ? (<li><span class="badge badge--item">GITHUB</span><a class="badge__link" href={frontmatter.github} target="_blank">{frontmatter.github}</a></li>) : null}
     </ul>
     <div class="center">
-        <img class="pro-img" width="500px" height="281" src={frontmatter.worksImage1.url} alt={frontmatter.worksImage1.alt} />
-        <img class="pro-img" width="500px" height="281" src={frontmatter.worksImage2.url} alt={frontmatter.worksImage2.alt} />
+        {frontmatter.video ? (<YouTube id={frontmatter.video} />) : null}
+        {frontmatter.worksImage1.url ? (<img class="pro-img" width="500px" height="281" src={frontmatter.worksImage1.url} alt={frontmatter.worksImage1.alt} />) : null}
+        {frontmatter.worksImage2.url ? (<img class="pro-img" width="500px" height="281" src={frontmatter.worksImage2.url} alt={frontmatter.worksImage2.alt} />) : null}
     </div>
 </BaseLayout>
 

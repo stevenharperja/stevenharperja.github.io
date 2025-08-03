@@ -9,6 +9,7 @@ const projectsCollection = defineCollection({
         url: z.string(),
         alt: z.string()
       }),
+      video: z.string(),
       worksImage1: z.object({
         url: z.string(),
         alt: z.string()
