@@ -12,4 +12,5 @@ export default defineConfig({
         ]
     },
     site: 'https://stevenharperja.github.io',
+    // base: 'stevenharperja.github.io/',
 });
