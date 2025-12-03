@@ -1,25 +1,23 @@
 ---
-title: 'Wonder Trade Mod'
-description: "A mod for Tabletop Simulator"
+title: 'Parallax Shader'
+description: "Optical illusion for images inside of 3d models"
 image:
-    url: '/wonder trade/image.jpg'
+    url: '/shaders/ball.png'
     alt: 'icon'
-video: '98wk6_kP8fo'
+video: '2UFp2tf4NpM'
 worksImage1:
     url: ''
     alt: ''
 worksImage2:
     url: ''
     alt: ''
-platform: Tabletop Simulator
-stack: Lua, Python, Flask
-website: https://steamcommunity.com/sharedfiles/filedetails/?id=3406185984
-github: https://github.com/stevenharperja/LoS-Wonder-Trade
+platform: Unity, Tabletop Simulator
+stack: HLSL, Unity
+website: https://steamcommunity.com/sharedfiles/filedetails/?id=3616865970
+github: https://github.com/stevenharperja/Twilight-Imperium-3d-Hex/blob/master/Assets/Sinnoh%20Ball/Shaders/BasicParallax.shader
 ---
-An addon for Legends of Sinnoh
-It implements "wonder trading" using a web server. Allowing users to randomly trade Pokémon with users at other tables.
+A shader which implements Parallax depth using multiple images.
+It creates the illusion that there are images inside of a 3d model, without having to render those images as actual objects in the game.
+This allows for increased performance on the graphics engine, as well as increased ease of use for swapping and editing the properties of the images.
 
-I implemented it in Tabletop Simulator using two parts. One piece is a client that converts Tabletop Simulator game objects into json and sends them off to a web server. The web server then stores the json, and randomly selects a stored json file to send back. Then the client loads these in as game objects.
-
-To use, a user places their Pokémon onto a panel and presses a button.
-It gets sent off to the server in exchange for a Pokémon that someone else sent earlier.
+This technique is similar to but different from a stencil shader technique, where objects are rendered invisible unless viewed through a window of a mesh, like a magic magnifying glass.
