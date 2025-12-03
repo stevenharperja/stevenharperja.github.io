@@ -14,6 +14,7 @@ const { frontmatter } = Astro.props;
         {frontmatter.stack ? (<li><span class="badge badge--item">STACK</span>{frontmatter.stack}</li>) : null}
         {frontmatter.website ? (<li><span class="badge badge--item">WEBSITE</span><a class="badge__link" href={frontmatter.website} target="_blank">{frontmatter.website}</a></li>) : null}
         {frontmatter.github ? (<li><span class="badge badge--item">GITHUB</span><a class="badge__link" href={frontmatter.github} target="_blank">{frontmatter.github}</a></li>) : null}
+        <!-- {frontmatter.stack ? (<li><span class="badge badge--item">STACK</span>{frontmatter.stack}</li>) : null} -->
     </ul>
     <div class="center">
         {frontmatter.video ? (<YouTube id={frontmatter.video} />) : null}

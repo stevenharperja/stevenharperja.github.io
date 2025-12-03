@@ -1,5 +1,5 @@
 ---
-title: 'GameJams'
+title: 'Old game jam submissions'
 description: "Game Jam submissions"
 image:
     url: 'https://opengameart.org/sites/default/files/psControllerColored.png'
