@@ -15,6 +15,7 @@ platform: ''
 stack: Python, Numpy
 website: ''
 github: https://github.com/stevenharperja/NN-from-scratch
+date: Spring 2021
 ---
 
 A simple feed-forward neural network built using Numpy.

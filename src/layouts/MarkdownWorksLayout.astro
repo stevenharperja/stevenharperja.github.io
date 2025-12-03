@@ -7,14 +7,16 @@ const { frontmatter } = Astro.props;
     <!-- <div class="gif">
         <img width="300" height="259" alt="RaccoonLaptopGif" src="/laptop.webp"/>
     </div> -->
-    <h2>{frontmatter.title}</h2>
+    <h2 >{frontmatter.title}</h2> 
+    <span class="card__text">{frontmatter.date}</span>
+
     <slot />
     <ul class="badge__list">
         {frontmatter.platform ? (<li><span class="badge badge--item">PLATFORM</span>{frontmatter.platform}</li>) : null}
         {frontmatter.stack ? (<li><span class="badge badge--item">STACK</span>{frontmatter.stack}</li>) : null}
         {frontmatter.website ? (<li><span class="badge badge--item">WEBSITE</span><a class="badge__link" href={frontmatter.website} target="_blank">{frontmatter.website}</a></li>) : null}
         {frontmatter.github ? (<li><span class="badge badge--item">GITHUB</span><a class="badge__link" href={frontmatter.github} target="_blank">{frontmatter.github}</a></li>) : null}
-        <!-- {frontmatter.stack ? (<li><span class="badge badge--item">STACK</span>{frontmatter.stack}</li>) : null} -->
+        
     </ul>
     <div class="center">
         {frontmatter.video ? (<YouTube id={frontmatter.video} />) : null}

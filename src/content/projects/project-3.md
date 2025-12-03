@@ -15,6 +15,7 @@ platform: Windows, Web
 stack: C#, Unity
 website: https://itch.io/jam/jamsepticeye/rate/3937371
 github: https://github.com/stevenharperja/Pigs-in-a-Blanket
+date: October 5th 2025
 ---
 My friends and I created this game for the Jamsepticeye game jam. 
-My role was coaching a new coder, and making some of the more complicated code.
+My role was coaching a new coder, and making some of the more complex code.

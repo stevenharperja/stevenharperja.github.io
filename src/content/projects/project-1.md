@@ -15,6 +15,7 @@ platform: Unity, Tabletop Simulator
 stack: HLSL, Unity
 website: https://steamcommunity.com/sharedfiles/filedetails/?id=3616865970
 github: https://github.com/stevenharperja/Twilight-Imperium-3d-Hex/blob/master/Assets/Sinnoh%20Ball/Shaders/BasicParallax.shader
+date: December 2nd 2025
 ---
 A shader which implements Parallax depth using multiple images.
 

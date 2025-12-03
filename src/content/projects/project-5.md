@@ -15,6 +15,7 @@ platform: Tabletop Simulator
 stack: Lua, Python, Flask
 website: https://steamcommunity.com/sharedfiles/filedetails/?id=3406185984
 github: https://github.com/stevenharperja/LoS-Wonder-Trade
+date: January 12th 2025
 ---
 This is a mod for the game Tabletop Simulator, a video game which allows you to play board games online with friends.
 It is an addon for an existing mod called Legends of Sinnoh, a Pokemon game on Tabletop Sim.

@@ -15,6 +15,7 @@ platform: Unity, Tabletop Simulator
 stack: HLSL, Unity
 website: N/A
 github: https://github.com/stevenharperja/Twilight-Imperium-3d-Hex/tree/master/Assets/TI%20Tiles/mecatol%20Stencil/Materials
+date: February 20th 2025
 ---
 A shader which hides objects by writing to the stencil buffer. It creates the illusion that there are objects "inside" of another object. In actuality what it is doing is making those objects invisible unless they are viewed through the object they are hiding inside. So the object is a bit like a window, but only one side of the object is a window.
 
