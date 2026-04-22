@@ -1,7 +1,8 @@
 export const navigation = {
     works: "Works",
     posts: "Translations",
-    github: "Github"
+    github: "Github",
+    kaggle: "Kaggle"
 };
 
 export const footer = {
