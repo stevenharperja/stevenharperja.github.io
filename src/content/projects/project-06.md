@@ -1,6 +1,6 @@
 ---
 title: 'RAG Database'
-description: "A Retrieval Augmented Generation using OLLAMA"
+description: "Retrieval Augmented Generation using OLLAMA"
 image:
     url: '/RAG/hello.png'
     alt: 'icon'
