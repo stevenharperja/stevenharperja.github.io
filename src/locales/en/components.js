@@ -1,6 +1,6 @@
 export const navigation = {
     works: "Works",
-    posts: "Translations",
+    posts: "Posts",
     github: "Github",
     kaggle: "Kaggle"
 };
